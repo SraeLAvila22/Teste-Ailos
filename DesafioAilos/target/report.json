@@ -1,0 +1,256 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "line": 7,
+        "name": "acessar o site",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8920112100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "que eu esteja no site \"https://www.saucedemo.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.saucedemo.com\"",
+                  "offset": 22
+                }
+              ],
+              "location": "steps.FazerComprasTeste.que_eu_esteja_no_site(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-16T18:35:15.954Z",
+        "line": 11,
+        "name": "CT01 - Fazer login com usuario bloqueado",
+        "description": "",
+        "id": "fazer-compras;ct01---fazer-login-com-usuario-bloqueado",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 583328300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "preencher os dados de usuario bloqueado",
+            "match": {
+              "location": "steps.FazerComprasTeste.preencher_os_dados_de_usuario_bloqueado()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1169343000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Valido a mensagem de bloqueio exibida",
+            "match": {
+              "location": "steps.FazerComprasTeste.valido_a_mensagem_de_bloqueio_exibida()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RunAll"
+          },
+          {
+            "name": "@RunCT01"
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "acessar o site",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8321745100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "que eu esteja no site \"https://www.saucedemo.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.saucedemo.com\"",
+                  "offset": 22
+                }
+              ],
+              "location": "steps.FazerComprasTeste.que_eu_esteja_no_site(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-16T18:35:26.840Z",
+        "line": 16,
+        "name": "CT02 - Fazer compras",
+        "description": "",
+        "id": "fazer-compras;ct02---fazer-compras",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 631637600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "preencher os dados de login validos",
+            "match": {
+              "location": "steps.FazerComprasTeste.preencher_os_dados_de_login_validos()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5334937900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "escolher meus produtos",
+            "match": {
+              "location": "steps.FazerComprasTeste.escolher_meus_produtos()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7057852100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "finalizo minhas compras",
+            "match": {
+              "location": "steps.FazerComprasTeste.finalizo_minhas_compras()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RunAll"
+          },
+          {
+            "name": "@RunCT02"
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "acessar o site",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7971475200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "que eu esteja no site \"https://www.saucedemo.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.saucedemo.com\"",
+                  "offset": 22
+                }
+              ],
+              "location": "steps.FazerComprasTeste.que_eu_esteja_no_site(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-16T18:35:48.221Z",
+        "line": 22,
+        "name": "CT03 - Comprar todos os produtos",
+        "description": "",
+        "id": "fazer-compras;ct03---comprar-todos-os-produtos",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 574898900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "preencher os dados de login validos",
+            "match": {
+              "location": "steps.FazerComprasTeste.preencher_os_dados_de_login_validos()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5856622800,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "selecionar todos os produtos da loja",
+            "match": {
+              "location": "steps.FazerComprasTeste.selecionar_todos_os_produtos_da_loja()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4013634500,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "valido o valor total a ser pago",
+            "match": {
+              "location": "steps.FazerComprasTeste.valido_o_valor_total_a_ser_pago()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RunAll"
+          },
+          {
+            "name": "@RunCT03"
+          }
+        ]
+      }
+    ],
+    "name": "Fazer compras",
+    "description": "  Eu como usuario quero logar na minha conta para efetuar compras",
+    "id": "fazer-compras",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/FazerCompras.feature",
+    "tags": [
+      {
+        "name": "@RunAll",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
